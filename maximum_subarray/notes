@@ -1,0 +1,8 @@
+The program in the directory is my idea to solve the maximum subarray
+problem before reading the solution in the book. My solution is essentially
+equivalent to the book's, but operates on the cumulative array instead of
+the array of differences. Also, my program is more efficient as the function
+returns the min and max in the range as well, meaning that it is trivial to
+find the crossing subarray and eliminating what amounts to an O(n)
+contribution to the runtime. This is still an O(nlogn) divide-and-conquer
+solution.
